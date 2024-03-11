@@ -5,10 +5,10 @@ let result = document.getElementById("result")
 function weatherResult(data) {
     result.innerHTML = `
             <div class="info">
-                <img src="cloud.png" alt="" class="icon">
-                <div>
-                
-</div>
+                <img src="rainyImage.jpeg" alt="" class="icon">
+<!--                <div>-->
+<!--                -->
+<!--</div>-->
 </div>
     `
 
