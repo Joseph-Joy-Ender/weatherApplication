@@ -6,6 +6,8 @@ function weatherResult(data) {
     result.innerHTML = `
             <div class="info">
                 <img src="rainyImage.jpeg" alt="" class="icon">
+                <h1>${data.main.humidity}°</h1>
+                <h1>${data.name}</h1>
 <!--                <div>-->
 <!--                -->
 <!--</div>-->
